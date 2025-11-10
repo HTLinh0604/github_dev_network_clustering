@@ -1,5 +1,5 @@
-# Developer Community Clustering and Collaboration on GitHub
-*(Phân cụm và Hợp tác Cộng đồng Nhà phát triển trên GitHub)*
+# Developer Community Clustering and Collaboration Group Detection on GitHub
+*(Phân cụm cộng đồng nhà phát triển và phát hiện nhóm hợp tác trên GitHub)*
 
 ## Description
 This research focuses on **group detection and collaboration analysis** among GitHub developers. It builds a **commit-based collaboration network**, where nodes represent developers and edges indicate joint contributions to repositories.
