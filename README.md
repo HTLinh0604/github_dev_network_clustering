@@ -1,6 +1,13 @@
 # Developer Community Clustering and Collaboration Group Detection on GitHub
 *(Phân cụm cộng đồng nhà phát triển và phát hiện nhóm hợp tác trên GitHub)*
 
+![GitHub API](https://img.shields.io/badge/GitHub%20API-Data%20Source-181717?logo=github)
+![GraphQL](https://img.shields.io/badge/GraphQL-Querying-E10098?logo=graphql)
+![Python](https://img.shields.io/badge/Python-SNA-blue?logo=python)
+![Leiden Algorithm](https://img.shields.io/badge/Leiden-Community%20Detection-blueviolet)
+![Dataset](https://img.shields.io/badge/Dataset-TensorFlow%20Repos-FF6F00?logo=tensorflow)
+
+---
 ## Description
 This research focuses on **group detection and collaboration analysis** among GitHub developers. It builds a **commit-based collaboration network**, where nodes represent developers and edges indicate joint contributions to repositories.
 *(Nghiên cứu này tập trung vào **phát hiện nhóm và phân tích hợp tác** của các nhà phát triển GitHub. Nghiên cứu xây dựng một **mạng lưới hợp tác dựa trên commit**, trong đó các nút là nhà phát triển và các cạnh biểu thị việc đóng góp chung vào kho lưu trữ.)*
@@ -34,17 +41,29 @@ This research focuses on **group detection and collaboration analysis** among Gi
 ---
 
 ## Network & Community Analysis
-- **Hub-oriented Structure:** The network is dominated by highly connected nodes. Degree distribution follows a potential power-law.  
-*(**Cấu trúc hướng tâm:** Mạng chủ yếu có các nút kết nối cao. Phân phối bậc tuân theo luật lũy thừa tiềm năng.)*
+### Community Structure Analysis
+- **Internal Cohesion:** 93.2% of edges are intra-community, 6.8% inter-community.  
+  *(Tính gắn kết Nội bộ: 93.2% cạnh là nội cộng đồng, 6.8% là liên cộng đồng.)*
 
-- **Intra-community Cohesion:** **93.2% of edges are intra-community**, confirming tight-knit subgroups.  
-*(**Độ kết dính cộng đồng:** **93.2% tổng số cạnh là nội cộng đồng**, chứng tỏ sự gắn kết cao trong các nhóm phụ.)*
+- **Community Size Distribution:** Right-skewed; top 10 communities account for 55% of members.  
+  *(Phân phối Kích thước: Không đồng đều; top 10 cộng đồng chiếm 55% tổng số thành viên.)*
 
-- **Community Size Distribution:** Largest community has **1,215 members**, top 10 communities cover **55%** of members.  
-*(**Quy mô cộng đồng:** Cộng đồng lớn nhất có **1.215 thành viên**, 10 cộng đồng lớn nhất chiếm **55%** tổng số thành viên.)*
+- **Community Nature:** Communities align with programming languages, repository topics, and project types.  
+  *(Bản chất Cộng đồng: Các cộng đồng phát hiện rõ ràng, gắn chặt với ngôn ngữ lập trình, chủ đề kho lưu trữ và loại dự án.)*
 
-- **Influential Developers:** Centrality analysis identifies key “bridges” connecting different collaboration clusters.  
-*(**Nhà phát triển ảnh hưởng:** Phân tích độ trung tâm xác định các “cầu nối” chính giữa các cụm hợp tác khác nhau.)*
+### Centrality Analysis
+- Top developers show high consistency across Degree, PageRank, and Betweenness.  
+  *(Vai trò của các Hub: Các nhà phát triển hàng đầu có thứ hạng cao ở Degree, PageRank, Betweenness.)*
+
+- High Betweenness indicates key bridge roles between clusters.  
+  *(Cầu nối: Betweenness cao cho thấy vai trò cầu nối giữa các cụm.)*
+
+- Degree and PageRank positively correlate, indicating more connected developers have greater influence.  
+  *(Ảnh hưởng: Degree và PageRank dương mạnh, nhà phát triển nhiều kết nối có ảnh hưởng lớn hơn.)*
+
+- Clustering Coefficient negatively correlates with centrality measures, implying hubs connect communities rather than forming tightly knit groups.  
+  *(Đặc điểm của Hub: Hệ số phân cụm âm với các chỉ số trung tâm, ngụ ý các hub nối nhiều cộng đồng.)*
+
 
 ---
 
@@ -71,6 +90,24 @@ This research focuses on **group detection and collaboration analysis** among Gi
 
 ---
 
-## Visualization Analogy
-If the GitHub collaboration network is a large city, **communities** are dense neighborhoods (**93.2% of interactions occur inside them**). Influential developers with high **betweenness** act as **bridges**, connecting different neighborhoods without permanently residing in any.
-*(Nếu coi mạng lưới hợp tác GitHub như một thành phố lớn, **các cộng đồng** là những khu phố đông đúc (**93.2% giao dịch xảy ra bên trong**). Các nhà phát triển có **độ trung gian cao** đóng vai trò như **cầu nối**, kết nối các khu phố khác nhau.)*
+## Conclusion
+This study provides a comprehensive framework for understanding collaboration structures on GitHub. The network is **modular and hub-oriented**, and the Leiden algorithm is highly effective for detecting stable community structures.  
+*(Nghiên cứu cung cấp một khuôn khổ toàn diện để hiểu cấu trúc hợp tác trên GitHub. Mạng lưới có tính **modular và hướng hub**, với thuật toán Leiden là phương pháp hiệu quả nhất để phát hiện các cấu trúc cộng đồng ổn định.)*
+  
+---
+
+##  Authors *(Nhóm Thực hiện)*
+
+**Students:** *(Sinh viên thực hiện)*  
+- Hồ Gia Thành  
+- Huỳnh Thái Linh  
+- Trương Minh Khoa  
+
+**Supervisor:** *(Giảng viên hướng dẫn)* *ThS. Lê Nhật Tùng*  
+**University:** *(Trường)* Trường Đại học Công nghệ TP. Hồ Chí Minh — *Khoa học Dữ liệu*  
+**Year:** *(Năm thực hiện)* 2025
+
+---
+
+> © 2025 — Project: *Developer Community Clustering and Collaboration Group Detection on GitHub*  
+> *Developed for academic research and educational purposes.*
