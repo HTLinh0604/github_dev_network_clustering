@@ -8,11 +8,6 @@
 ![Dataset](https://img.shields.io/badge/Dataset-TensorFlow%20Repos-FF6F00?logo=tensorflow)
 
 ---
-## Description
-This research focuses on **group detection and collaboration analysis** among GitHub developers. It builds a **commit-based collaboration network**, where nodes represent developers and edges indicate joint contributions to repositories.
-*(Nghiên cứu này tập trung vào **phát hiện nhóm và phân tích hợp tác** của các nhà phát triển GitHub. Nghiên cứu xây dựng một **mạng lưới hợp tác dựa trên commit**, trong đó các nút là nhà phát triển và các cạnh biểu thị việc đóng góp chung vào kho lưu trữ.)*
-
----
 
 ## Data Collection & Methodology
 - **Data Collection:** Leveraged the **GitHub API** with **GraphQL** to collect data from 90 public repositories under the "tensorflow" topic, covering over **5,000 unique developers** and **1,000,000+ collaboration edges**.
