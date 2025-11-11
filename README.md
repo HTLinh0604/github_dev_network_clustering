@@ -59,6 +59,9 @@
 - Clustering Coefficient negatively correlates with centrality measures, implying hubs connect communities rather than forming tightly knit groups.  
   *(Đặc điểm của Hub: Hệ số phân cụm âm với các chỉ số trung tâm, ngụ ý các hub nối nhiều cộng đồng.)*
 
+<p align="center">
+  <img src="img/centrality_sccater.png" width="600" alt="System Workflow">
+</p> 
 
 ---
 
