@@ -1,11 +1,14 @@
 # Developer Community Clustering and Collaboration Group Detection on GitHub
 *(Phân cụm cộng đồng nhà phát triển và phát hiện nhóm hợp tác trên GitHub)*
 
-![GitHub API](https://img.shields.io/badge/GitHub%20API-Data%20Source-181717?logo=github)
-![GraphQL](https://img.shields.io/badge/GraphQL-Querying-E10098?logo=graphql)
-![Python](https://img.shields.io/badge/Python-SNA-blue?logo=python)
-![Leiden Algorithm](https://img.shields.io/badge/Leiden-Community%20Detection-blueviolet)
-![Dataset](https://img.shields.io/badge/Dataset-TensorFlow%20Repos-FF6F00?logo=tensorflow)
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat&logo=python)
+![GitHub API](https://img.shields.io/badge/GitHub_API-Data_Source-181717?style=flat&logo=github)
+![GraphQL](https://img.shields.io/badge/GraphQL-Querying-E10098?style=flat&logo=graphql)
+![Leiden](https://img.shields.io/badge/Leiden-Community_Detection-8A2BE2?style=flat)
+![Louvain](https://img.shields.io/badge/Louvain-Community_Detection-9C27B0?style=flat)
+![Infomap](https://img.shields.io/badge/Infomap-Network_Clustering-6A1B9A?style=flat)
+![Label Propagation](https://img.shields.io/badge/Label_Propagation-Graph_Partitioning-2196F3?style=flat)
+![Spectral Clustering](https://img.shields.io/badge/Spectral_Clustering-Graph_Learning-00BCD4?style=flat)
 
 ---
 
